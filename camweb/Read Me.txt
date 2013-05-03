@@ -1,0 +1,46 @@
+camweb by matthew cambridge 2013 - mattcambridge.co.uk
+--------------------------------
+ABOUT
+camweb is free and open to be used by/tinkering with by everybody.
+its light-weight, get-you-up-and-running web-site framework.
+it is by no means fully configerd and is geared toward those starting out.
+--------------------------------
+Features
+-meyerweb.com css reseter (saved as reset in the css folder)
+-jQuary 1.9.1 (saved as jQuary in the js folder)
+-readey made logical directory structure
+--------------------------------
+HOW TO USE
+1. index html is the template for each of your indiviule web pages.
+copy and paste index.html and rename the web page as you wish eg contact.html to create a new web page that has access to all the css and javascript including jQuary and the mayerweb.com css reseter as well as your custom css and javascript.
+
+to learn more about HTML visit
+http://www.w3schools.com/html/default.asp
+--------------------------------
+2.the css folder is where all the css goes. there a two files reset.css and main.css . main.css is where you put all your own css. reset.css helps to make browers render your webpage in a more uniform way. its best just to leave reset.css alone.
+
+to learn more about CSS visit
+ http://www.w3schools.com/css/default.asp
+--------------------------------
+3.the js folder is where all the javascript goes. there are two files jQuary.js and main.js . main.js is where all your javacript and jQuairy go. its best leave the jQuary.js file alone.
+
+to learn more about javascrip visit 
+http://www.w3schools.com/js/default.asp
+
+and to learn more about jQuary visit
+http://www.w3schools.com/jquery/default.asp
+--------------------------------
+4.the img folder is where all the images go for your website. to use any images in the image folder in your html just pre-fix img/ to the files name. for exsample if you had a image called logo.jpg your html img tag would look like this <img src="img/logo.jpg" alt="my amazing logo"/> 
+
+to use images in your css (main.css) just prefix your file with ../img for exsample if your file was called background.jpg your css would look like this 
+
+div{
+background-image:url(../img/background.jpg yqaa5r);
+} 
+
+
+
+
+
+
+ 
